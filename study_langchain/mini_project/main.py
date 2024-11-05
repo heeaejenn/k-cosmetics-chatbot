@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.messages.chat import ChatMessage
-from asker2 import answer_by_gpt
+from asker3 import answer_by_gpt2
 
 st.title('K-Cosmetics Counseler Chatbot')
 
@@ -30,7 +30,7 @@ user_input_in_here = st.chat_input('Chat here :-)')
 if user_input_in_here:
     # 말풍선 생성
     st.chat_message('user').write(user_input_in_here)
-    resp = answer_by_gpt(user_input_in_here)
+    resp = answer_by_gpt2(user_input_in_here)
     st.chat_message('ai').write(resp)
 
     # 대화기록 저장
