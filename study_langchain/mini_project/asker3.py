@@ -87,7 +87,7 @@ def generate_prompt_from_file(txt_file_path, template_file_path):
 # ChatPromptTemplate 작성
 def ask_gpt(user_input):
     
-    prompt = generate_prompt_from_file('cosmetics_recommendation.txt', 'prompt_template.yaml')
+    prompt = generate_prompt_from_file('study_langchain/mini_project/cosmetics_recommendation.txt', 'prompt_template.yaml')
 
     final_prompt = ChatPromptTemplate.from_messages([
         ('system', """
