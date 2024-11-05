@@ -1,8 +1,0 @@
-_type: 'prompt'
-template: |
-  다음은 사용자가 작성한 본인의 정보입니다.
-  사용자는 인적사항 및 의상 코디 요청의 목적(방향성)을 제시합니다.
-  다음과 같은 내용을 참고하여 TPO에 맞는 의상 코디를 제시하세요.
-
-  {user_info}
-input_variables: ['user_info']
