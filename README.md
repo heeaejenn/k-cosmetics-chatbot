@@ -148,7 +148,7 @@ LANGCHAIN_API_KEY=your_langchain_api_key_here
 프로젝트의 시연 영상을 확인하고, 실제 서비스 환경을 통해 동작을 확인하실 수 있습니다.
 
 ### 시연 영상
-- [여기](https://github.com/heeaejenn/lang_chain/raw/main/assets/시현영상(편집본).mp4)를 통해 챗봇 프로그램의 동작을 확인하실 수 있습니다.
+- [여기](https://github.com/heeaejenn/lang_chain/blob/main/%EC%8B%9C%ED%98%84%EC%98%81%EC%83%81(%ED%8E%B8%EC%A7%91%EB%B3%B8).mp4)를 통해 챗봇 프로그램의 동작을 확인하실 수 있습니다.
 
 ### 배포 링크
 -  [여기](https://miniproject-k-cos.streamlit.app/)를 통해 실시간 챗봇 서비스를 사용하실 수 있습니다. 
