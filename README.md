@@ -85,7 +85,72 @@ graph LR
   ```
 </details> 
 
-## 4. 사용법
-## 5. 구성 요소 설명
-## 6. 환경 변수 설정
-## 7. 주요 의존성 및 기술 스택
+## 4. 환경 변수 설정
+
+이 프로젝트는 외부 API와 통신하기 위해 두 가지 환경 변수가 필요합니다:
+
+1. **OPEN_API_KEY**  
+   - OpenAI API 키입니다.
+   - `.env` 파일에 추가:
+     ```env
+     OPEN_API_KEY=your_openai_api_key_here
+     ```
+
+2. **LANGCHAIN_API_KEY**  
+   - LangChain API 키입니다.
+   - `.env` 파일에 추가:
+     ```env
+     LANGCHAIN_API_KEY=your_langchain_api_key_here
+     ```
+
+### `.env` 파일 예시:
+```env
+OPEN_API_KEY=your_openai_api_key_here
+LANGCHAIN_API_KEY=your_langchain_api_key_here
+```
+
+## 5. 주요 의존성 및 기술 스택
+
+이 프로젝트는 여러 가지 라이브러리와 기술 스택을 사용하여 챗봇 시스템을 구축합니다. 아래는 주요 의존성 목록입니다:
+
+### 주요 의존성
+
+1. **OpenAI (openai)**  
+   - OpenAI의 GPT 모델을 사용하여 자연어 처리 기능을 구현합니다.
+
+2. **LangChain**  
+   - LangChain은 여러 외부 API를 통합하여 대화형 응용 프로그램을 구축하는 데 사용되는 라이브러리입니다.
+
+3. **Streamlit**  
+   - 웹 애플리케이션을 쉽게 만들 수 있도록 지원하는 라이브러리로, 사용자 인터페이스를 구축하는 데 사용됩니다.
+
+4. **Poetry**  
+   - Python 프로젝트의 의존성 관리를 위한 패키지 관리자입니다. 이 프로젝트에서는 `pyproject.toml` 파일을 통해 의존성 및 가상 환경을 관리합니다.
+
+### 기술 스택
+
+- **Python (= 3.11)**  
+  - 이 프로젝트는 Python 3.11 에서 실행됩니다.
+
+- **LangChain**  
+  - LangChain을 사용하여 다양한 언어 모델과 외부 API를 연결하고 대화형 응용 프로그램을 구축합니다.
+
+- **Streamlit**  
+  - 실시간으로 동작하는 웹 애플리케이션을 만들기 위해 사용됩니다. 사용자가 챗봇과 상호작용할 수 있는 UI를 제공합니다.
+
+- **OpenAI API**  
+  - GPT 모델을 기반으로 한 대화형 챗봇을 구현하는 데 사용됩니다.
+
+이 외에도 프로젝트에 필요한 다양한 라이브러리들이 `pyproject.toml`에 명시되어 있으며, `poetry install` 명령어로 자동으로 설치됩니다.
+
+## 6. 시연 영상 및 배포 링크
+
+프로젝트의 시연 영상을 확인하고, 실제 서비스 환경을 통해 동작을 확인하실 수 있습니다.
+
+### 시연 영상
+- 아래 영상을 통해 챗봇 프로그램의 동작을 확인하실 수 있습니다.
+  ![챗봇 시연 영상]("C:\Users\kwkwo\lang_chain\study_langchain\mini_project\시현영상(편집본).mp4")
+
+### 배포 링크
+-  [여기를를](https://miniproject-k-cos.streamlit.app/)을 통해 실시간 챗봇 서비스를 사용하실 수 있습니다. 
+  
