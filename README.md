@@ -149,8 +149,11 @@ LANGCHAIN_API_KEY=your_langchain_api_key_here
 
 ### 시연 영상
 - 아래 영상을 통해 챗봇 프로그램의 동작을 확인하실 수 있습니다.
-  !("lang_chain/시현영상(편집본).mp4")
+<video width="640" height="480" controls>
+  <source src="https://github.com/yourusername/yourrepo/raw/main/assets/lang_chain시현영상(편집본).mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### 배포 링크
--  [여기를](https://miniproject-k-cos.streamlit.app/)을 통해 실시간 챗봇 서비스를 사용하실 수 있습니다. 
+-  [여기](https://miniproject-k-cos.streamlit.app/)를 통해 실시간 챗봇 서비스를 사용하실 수 있습니다. 
   
