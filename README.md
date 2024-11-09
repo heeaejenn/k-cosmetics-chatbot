@@ -125,11 +125,17 @@ LANGCHAIN_API_KEY=your_langchain_api_key_here
    - 웹 애플리케이션을 쉽게 만들 수 있도록 지원하는 라이브러리로, 사용자 인터페이스를 구축하는 데 사용됩니다.
 
 4. **Poetry**  
-   - Python 프로젝트의 의존성 관리를 위한 패키지 관리자입니다. 이 프로젝트에서는 `pyproject.toml` 파일을 통해 의존성 및 가상 환경을 관리합니다.
+   - Python 프로젝트의 의존성 관리를 위한 패키지 관리자입니다. 이 프로젝트에서는 pyproject.toml 파일을 통해 의존성 및 가상 환경을 관리합니다.
+
+5. **Faiss**
+   - 벡터 검색 및 유사도 계산을 위한 라이브러리로, chromadb의 대체 패키지로 사용되었습니다.
+
+6. **Chromadb**
+   - 벡터 데이터베이스 라이브러리로, 프로젝트의 초기 구현에서 사용되었으나 패키지 호환성 문제로 faiss로 교체되었습니다.
 
 ### 기술 스택
 
-- **Python (= 3.11)**  
+- **Python 3.11**  
   - 이 프로젝트는 Python 3.11 에서 실행됩니다.
 
 - **LangChain**  
@@ -151,5 +157,11 @@ LANGCHAIN_API_KEY=your_langchain_api_key_here
 - [여기](https://github.com/heeaejenn/lang_chain/blob/main/%EC%8B%9C%ED%98%84%EC%98%81%EC%83%81(%ED%8E%B8%EC%A7%91%EB%B3%B8).mp4)를 통해 챗봇 프로그램의 동작을 확인하실 수 있습니다.
 
 ### 배포 링크
--  [여기](https://miniproject-k-cos.streamlit.app/)를 통해 실시간 챗봇 서비스를 사용하실 수 있습니다. 
+-  [여기](https://miniproject-k-cos.streamlit.app/)를 통해 실시간 챗봇 서비스를 사용하실 수 있습니다.
+
+## 7. 사용 데이터 출처
+- 뷰티 유튜버 디렉터 파이의 영상 영문 자막
+  
+[디렉터 파이 유튜브 영상](https://youtu.be/tDAVboStTto?si=RcXq2jpd8GUpYZvq)에서 제공되는 영문 자막을 기반으로 데이터를 활용했습니다. 이 영상은 화장품 추천에 대한 내용을 다루고 있습니다.
+
   
